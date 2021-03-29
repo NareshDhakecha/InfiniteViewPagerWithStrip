@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.ndsoftwares.infiniteviewpager.InfiniteViewPager
+        android:id="@+id/months_infinite_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" />
+
+    <com.ndsoftwares.infiniteviewpager.RecyclerTabLayout2
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rtl_scrollEnabled = "false"
+        app:rtl_selectType="oval"
+        app:rtl_tabIndicatorColor="#D9D2D2"
+        app:rtl_tabIndicatorHeight="40dp"
+        app:rtl_indicatorCornerRadius="5dp"
+        app:rtl_tabMaxWidth="264dp"
+        app:rtl_tabMinWidth="72dp"
+        app:rtl_tabPaddingEnd="22dp"
+        app:rtl_tabPaddingStart="22dp"
+        app:rtl_tabSelectedTextColor="@android:color/black"
+        app:rtl_tabTextAppearance="@style/TabTextStyleMain"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,3 @@
+include ':infiniteviewpager'
+include ':app'
+rootProject.name = "InfiniteViewPagerWithStrip"
